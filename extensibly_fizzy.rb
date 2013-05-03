@@ -1,5 +1,6 @@
 require "active_support/core_ext/object/blank"
 
+MAX  = 100
 ALTS = { Fizz: 3, Buzz: 5, Pox: 6 }
 
 class Fixnum
@@ -8,4 +9,4 @@ class Fixnum
   end
 end
 
-100.times { |i| puts i.to_fb }
+MAX.times { |i| puts i.to_fb }
